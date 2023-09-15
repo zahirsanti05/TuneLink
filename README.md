@@ -63,3 +63,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 
 Inspiration, code snippets, etc.
 * [readme](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
+* [Display your Spotify profile data in a web app](https://developer.spotify.com/documentation/web-api/howtos/web-app-profile)
