@@ -1,19 +1,20 @@
 import './App.css';
+import Header from './Header'
+import Footer from './Footer'
 import React from "react";
 
 
 
-function App() {
+function App({children}) {
   return (
     <div className="App">
     
-    {/* <img style={{ width: 600, height: 600 }} src={ require('./images/spotify.png')} alt="" /> */}
+    <Header />
 
-    <div style={{ color: 'white', fontSize: 50 }}> spotify Playlist Generator</div>
+    {children}
+  
 
-    <button style={{width: 400, height: 50, color: 'white', backgroundColor: 'black'}}> Let's Go!</button>
-   
-       
+    <Footer />
     </div>
   );
 }
