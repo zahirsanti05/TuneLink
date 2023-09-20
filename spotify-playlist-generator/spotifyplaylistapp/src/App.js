@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
     
-    <img style={{ width: 600, height: 600 }} src={ require('./images/spotify.png')} alt="" />
+    {/* <img style={{ width: 600, height: 600 }} src={ require('./images/spotify.png')} alt="" /> */}
 
     <div style={{ color: 'white', fontSize: 50 }}> spotify Playlist Generator</div>
 
