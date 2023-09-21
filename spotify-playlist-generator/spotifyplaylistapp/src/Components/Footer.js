@@ -1,6 +1,11 @@
+import '../App.css';
+
 function Footer() {
     return (
-      <div className="Header"> footer </div>
+      <div className="footerBox">
+        <div className="footer"> This is text for the footer. </div>
+      </div>
+      
     );
   }
   

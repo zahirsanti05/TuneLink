@@ -2,13 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Summary from './Components/Summary';
+import About from './Components/About';
+import ExamplePlaylist from './Components/ExamplePlaylist';
 import reportWebVitals from './reportWebVitals';
-import Summary from './Summary';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App>
+      <About/>
+        <ExamplePlaylist/>
       <Summary/>
     </App>
   </React.StrictMode>
