@@ -16,7 +16,6 @@ An in-depth paragraph about your project and overview of use.
 * [Express(.js)](https://expressjs.com/)
 * [React(.js)](https://react.dev/)
 * [Node(.js)](https://nodejs.org/en)
-* [Vite](https://v2.vitejs.dev/)
 
 ### Installing
 
