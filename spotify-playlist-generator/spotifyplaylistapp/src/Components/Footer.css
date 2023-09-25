@@ -1,0 +1,15 @@
+/* src/components/Footer.css */
+.footer-container {
+    background-color: #ffae03;
+    ; /* Dark background color */
+    padding: 20px 0; /* Vertical padding */
+    position: relative; /* Relative positioning for additional styling if needed */
+}
+
+.footer-content {
+    max-width: 1200px; /* Maximum width for content */
+    margin: 0 auto; /* Centering content horizontally */
+    padding: 0 20px; /* Horizontal padding for responsiveness */
+    color: #000100; /* Light text color */
+    text-align: center; /* Centering text */
+}

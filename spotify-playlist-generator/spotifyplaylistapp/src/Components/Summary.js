@@ -1,4 +1,6 @@
 import React from 'react';
+import './Summary.css';
+
 
 function Summary() {
   const handleClick = () => {
@@ -7,9 +9,9 @@ function Summary() {
   
   return (
     <>
-      <div className='summaryBox'>
-        <div className='summary'>This is a test summary</div>
-        <button className='getStarted' onClick={handleClick}>Click Me</button>
+      <div className='Summary'>
+        <h2 className='summary'>This is a test summary</h2>
+        <button className='getStarted' onClick={handleClick}>Generate</button>
       </div>
         
     </>

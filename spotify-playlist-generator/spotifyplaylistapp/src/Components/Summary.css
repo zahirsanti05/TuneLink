@@ -1,0 +1,10 @@
+.Summary {
+    background-color: #fffffb;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.Summary h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
