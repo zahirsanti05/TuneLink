@@ -1,10 +1,18 @@
+import React from 'react';
 import '../App.css';
+import './Header.css';
 
 function Header() {
     return (
-      <div className="headerBox">
-        <div className="header"> This is the text for the header </div>
-      </div>
+      <header className="header">
+      <div className="logo">TuneLink</div>
+      <nav className="navbar">
+        <ul>
+          <li><a href="#home">Sign Up</a></li>
+          <li><a href="#features">Sign In</a></li>
+        </ul>
+      </nav>
+    </header>
     );
   }
   
