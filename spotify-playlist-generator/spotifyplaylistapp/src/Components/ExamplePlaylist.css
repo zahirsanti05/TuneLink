@@ -1,10 +1,56 @@
 .Example-playlist {
-    background-color: #fffffb;
+    background-color: #ffae03;
     padding: 50px 0;
     text-align: center;
+    height: 200px;
 }
 
 .Example-Playlist h2 {
     font-size: 2rem;
     margin-bottom: 20px;
 }
+
+.Example-Playlist-box {
+    height: 400px;
+    background-color: #ffae03;
+}
+
+
+.button-Box {
+    display: flex;
+    justify-content: center;
+}
+
+.button1-Container {
+    margin: 0 10px; 
+    padding: 10px 20px;
+    height: 150px;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+}
+
+.button2-Container {
+    margin: 0 10px; 
+    padding: 10px 20px;
+    height: 150px;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+}
+
+.button3-Container {
+    margin: 0 10px; 
+    padding: 10px 20px;
+    height: 150px;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-images{
+    height: 150px;
+    width: 150px;
+}
+
+

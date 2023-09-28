@@ -1,14 +1,31 @@
-import '../index.css';
-import './ExamplePlaylist.css';
+import React, { useState } from 'react';
+import DisplayPlaylist from './DisplayPlaylist'; // Import the Playlist component
+import './ExamplePlaylist.css'
 
 function ExamplePlaylist() {
-    return (
-      <div className="Example-playlist">
-            <h2>Playlist</h2>
-            <p>We allows our users to generate playlists, based on specific genres, to help discover rising talent.</p>
-        </div>
-      
-    );
+  const [displayPlaylist, setDisplayPlaylist] = useState(false);
+
+  const handleButtonClick = () => {
+    setDisplayPlaylist(true);
+  };
+
+  if (displayPlaylist) {
+    return <DisplayPlaylist />; // Display the Playlist component when displayPlaylist is true
   }
-  
-  export default ExamplePlaylist;
+
+  return (
+    <div className = 'Example-Playlist-box'>
+      <h1>Example Playlist</h1>
+      <p>Click one of the buttons below:</p>
+      <div className='button-Box'>
+        <button onClick={handleButtonClick} className='button1-Container'>Rock
+        <img src='../images/spotify.png' alt='rock' className='button-images'/>
+        </button>
+        <button onClick={handleButtonClick} className='button2-Container'>Jazz</button>
+        <button onClick={handleButtonClick} className='button3-Container'>Pop</button>
+      </div>
+    </div>
+  );
+}
+
+export default ExamplePlaylist;
